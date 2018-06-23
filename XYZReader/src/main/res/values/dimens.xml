@@ -1,11 +1,45 @@
 <resources>
-    <!-- detail -->
-    <dimen name="detail_title_text_size">32sp</dimen>
-    <dimen name="detail_body_text_size">22sp</dimen>
+
+    <item name="match_parent" format="integer" type="dimen">-1</item>
+    
+    <!--List Activity-->
+    <integer name="list_column_count">2</integer>
+    <dimen name="list_side_margin">4dp</dimen>
+    <dimen name="list_item_margin">4dp</dimen>
+    <!--4dp list, 4dp in item-->
+    <dimen name="list_toolbar_side_margin">8dp</dimen>
+
+    <dimen name="list_item_heading_side_padding">8dp</dimen>
+    <dimen name="list_item_heading_top_padding">8dp</dimen>
+    <dimen name="list_item_heading_bottom_padding">4dp</dimen>
+    <dimen name="list_item_subheading_side_padding">8dp</dimen>
+    <dimen name="list_item_subheading_top_padding">4dp</dimen>
+    <dimen name="list_item_subheading_bottom_padding">8dp</dimen>
+
+    <!-- Detail Activity -->
+    <bool name="detail_is_card">false</bool>
+    <dimen name="detail_card_width">@dimen/match_parent</dimen>
+    <dimen name="detail_content_keyline">16dp</dimen>
+
+    <dimen name="detail_app_bar_height">180dp</dimen>
+    <dimen name="detail_toolbar_inset_withnav">@dimen/detail_content_keyline</dimen>
+    <dimen name="detail_title_expanded_side_margin">@dimen/detail_content_keyline</dimen>
+    <dimen name="detail_title_expanded_vertical_margin">24dp</dimen>
+
+    <dimen name="detail_content_top_margin">0dp</dimen>
+    <dimen name="detail_inner_horiz_margin">@dimen/detail_content_keyline</dimen>
+    <dimen name="detail_inner_vert_margin">24dp</dimen>
+
+    <dimen name="detail_title_text_size">22sp</dimen>
+    <dimen name="detail_body_text_size">18sp</dimen>
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
 
-    <dimen name="fab_elevation">2dp</dimen>
+    <dimen name="detail_item_paragraph_bottom_margin">8dp</dimen>
+
+
+
+    <dimen name="fab_elevation">4dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
-    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 
 </resources>

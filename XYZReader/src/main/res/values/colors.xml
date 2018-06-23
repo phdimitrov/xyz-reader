@@ -16,10 +16,35 @@
 -->
 
 <resources>
-    <color name="photo_placeholder">#ccc</color>
+    <!--Changing colors to more happy ones using Orange Palette with Blue-->
+    <color name="theme_primary">@color/orange_500</color>
+    <color name="theme_primary_dark">@color/orange_700</color>
+    <color name="theme_accent">@color/blue_500</color>
 
-    <color name="theme_primary">#04561A</color>
-    <color name="theme_primary_dark">#04561A</color>
-    <color name="theme_accent">#04561A</color>
-    <color name="ltgray">#ffe0e0e0</color>
+    <!--item has dark bg and light text-->
+    <color name="theme_item_background_default">@color/gray_500</color>
+    <color name="theme_item_text_heading">@color/gray_100</color>
+    <color name="theme_item_text_subheading">@color/gray_300</color>
+    <color name="theme_item_photo_placeholder">@color/gray_400</color>
+
+    <color name="theme_detail_photo_background_default">@color/gray_500</color>
+    <color name="theme_detail_text_heading">@color/gray_800</color>
+    <color name="theme_detail_text_content">@color/gray_600</color>
+    <color name="theme_detail_photo_placeholder">@color/gray_400</color>
+
+
+
+    <color name="orange_500">#FF9800</color>
+    <color name="orange_700">#F57C00</color>
+    <color name="blue_500">#2196F3</color>
+
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#e0e0e0</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_900">#212121</color>
+
 </resources>

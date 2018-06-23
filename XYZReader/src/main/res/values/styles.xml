@@ -17,12 +17,33 @@
 
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
+    <style name="BaseBacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="colorAccent">@color/theme_accent</item>
     </style>
+
+    <style name="Theme.Bacon" parent="BaseBacon">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="None"/>
+
+    <style name="Theme.Bacon.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
+
+    <style name="Theme.Bacon.Detail.CollapsingToolbar.TitleContainer" parent="None">
+        <item name="android:layout_gravity">bottom|start</item>
+    </style>
+
+    <style name="Theme.Bacon.Detail.Toolbar.Title" parent="None">
+        <item name="android:textAppearance">@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+
 
 </resources>

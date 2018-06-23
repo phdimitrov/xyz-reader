@@ -1,0 +1,19 @@
+<resources>
+
+    <!--List Activity-->
+    <integer name="list_column_count">3</integer>
+
+    <dimen name="list_side_margin">12dp</dimen>
+    <dimen name="list_item_margin">4dp</dimen>
+    <!--12dp list, 4dp in item-->
+    <dimen name="list_toolbar_side_margin">16dp</dimen>
+
+    <!-- Detail Activity -->
+    <dimen name="detail_content_keyline">64dp</dimen>
+
+    <dimen name="detail_inner_vert_margin">48dp</dimen>
+
+    <dimen name="detail_item_paragraph_bottom_margin">16dp</dimen>
+
+
+</resources>

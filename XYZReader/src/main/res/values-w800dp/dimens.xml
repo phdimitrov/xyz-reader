@@ -1,0 +1,29 @@
+<resources>
+
+    <!--List Activity-->
+    <dimen name="list_side_margin">60dp</dimen>
+    <dimen name="list_item_margin">4dp</dimen>
+    <!--sum 60dp list, 4dp in item-->
+    <dimen name="list_toolbar_side_margin">64dp</dimen>
+
+
+    <!-- Detail Activity -->
+    <!--In w800dp and above detail is a card centered in the screen-->
+    <bool name="detail_is_card">true</bool>
+    <dimen name="detail_card_width">728dp</dimen>
+
+    <dimen name="detail_content_keyline">64dp</dimen>
+
+    <dimen name="detail_app_bar_height">240dp</dimen>
+
+    <dimen name="detail_title_expanded_vertical_margin">32dp</dimen>
+    <dimen name="detail_content_top_margin">-16dp</dimen>
+
+    <dimen name="detail_title_text_size">32sp</dimen>
+    <dimen name="detail_body_text_size">24sp</dimen>
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.3</item>
+
+    <dimen name="detail_inner_vert_margin">64dp</dimen>
+
+    <dimen name="fab_margin">24dp</dimen>
+</resources>

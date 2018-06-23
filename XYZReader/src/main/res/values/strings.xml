@@ -9,4 +9,6 @@
 
     <string name="up">Up</string>
 
+    <string name="err_no_connectivity">Check your internet connection and try again.</string>
+
 </resources>

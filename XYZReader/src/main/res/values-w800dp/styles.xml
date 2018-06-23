@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="Theme.Bacon.Detail.Toolbar.Title" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="Theme.Bacon.Detail.CollapsingToolbar.TitleContainer" parent="None">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:maxWidth">@dimen/detail_card_width</item>
+    </style>
+
+</resources>
